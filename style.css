@@ -647,4 +647,32 @@ section {
   background: #15121f !important;
   border-color: rgba(168, 85, 247, 0.4) !important;
 }
+/* Final Purple Theme Fix */
+:root {
+    --background: #09090f;
+    --card: #15121f;
+    --gold: #a855f7;
+    --white: #f5f3ff;
+    --muted: #b4b0c5;
+    --border: rgba(168, 85, 247, 0.35);
+}
+
+.logo,
+.nav-links a:hover,
+.hero h2,
+.hero h1 span,
+.section-title span,
+.gold-text,
+.section-label,
+.skill-card h3,
+.about-card h3,
+#formStatus {
+    color: #c084fc !important;
+}
+
+.tags span {
+    color: #c084fc;
+    background: #21152f;
+    border-color: #6d28d9;
+}
 
