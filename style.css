@@ -610,4 +610,40 @@ footer {
     font-size: 2.4rem;
   }
 }
+    /* Purple theme override */
+body {
+  background-color: #09090f !important;
+  color: #f5f3ff !important;
+}
+
+h1 span,
+h1 strong,
+.logo,
+.hero h2,
+.hero h3 {
+  color: #c084fc !important;
+}
+
+a:hover {
+  color: #c084fc !important;
+}
+
+button,
+.btn,
+.button {
+  background: linear-gradient(135deg, #a855f7, #6d28d9) !important;
+  color: #ffffff !important;
+  border-color: #a855f7 !important;
+}
+
+section {
+  background-color: transparent;
+}
+
+.card,
+.project-card,
+.skill-card {
+  background: #15121f !important;
+  border-color: rgba(168, 85, 247, 0.4) !important;
+}
 
